@@ -1,0 +1,68 @@
+$success: green !default;
+$warning: yellow !default;
+$danger: red !default;
+$information: blue !default;
+$alert: 1.2rem !default;
+$font-weight: bold !default;
+$classic: white !default;
+
+$smallBoutonWidth : 80px !default;
+$smallBoutonHeight : 38px !default;
+$mediumBoutonWidth : 100px !default;
+$mediumBoutonHeight : 58px !default;
+$largeBoutonWidth : 300px !default;
+$largeBoutonHeight : 78px !default;
+$couleurPetitBouton : lightblue !default;
+$couleurGrandBouton : lightgreen !default;
+$couleurMediumBouton : transparent !default;
+$stylePetitBouton : dotted !default;
+$styleGrandBouton : inset !default;
+$styleMediumBouton : none !default;
+$bordurePetitBouton : 3px solid purple !default;
+$bordureGrandBouton : 3px solid orange !default;
+$bordureMediumBouton : none !default;
+
+
+$gutter: 1.6% !default;
+$TotalNBColumns : 12 !default;
+
+$backgroundColorNavUl : darkcyan !default;
+$backgroundColorNavUl2: royalblue !default;
+$backgroundColorNavUl3: orange !default;
+$justifyContentNavUl2: flex-start !default;
+$justifyContentNavUl3: flex-end !default;
+
+$navUlMarginLeft : 0 !default;
+$navUlMarginRight : 0 !default;
+$navUlPadding : 0 !default;
+$navUlDisplay : flex !default;
+$navUlFlexDirection : column !default;
+$navUlBackgroundColor : orange !default;
+$navUlListStyle : none !default;
+
+$navUlLiWidth : 100% !default;
+$navUlLiHeight : 3rem !default;
+$navUlLiTextAlign : center !default;
+$navUlLiBorderTop : 1px solid white !default;
+$navUlLiMargin : 0 !default;
+
+$navUlLiAColor : antiquewhite !default;
+$navUlLiATextDecoration : none !default;
+$navUlLiADisplay : block !default;
+
+
+
+$navUl2FlexDirection : row !default;
+$navUl2JustifyContent : space-between !default;
+$navUl2border: 1px solid black !default;
+
+$navUlLi2Width : 14% !default;
+$navUlLi2Height : 3rem !default;
+$navUlLi2TextAlign : none !default;
+$navUlLi2Margin : 0 !default;
+$navUlLi2BorderTop: none !default;
+
+$navUlLiA2Display : inline !default;
+
+$navUl3JustifyContent : flex-end !default;
+$navUlLi3Width : 5rem !default;

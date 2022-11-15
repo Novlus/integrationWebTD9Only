@@ -1,0 +1,65 @@
+//@import '_variable.scss';
+
+
+@mixin button() {
+    width: 100px;
+    height: 50px;
+    background-color: chocolate;
+    outline: 1px solid black;
+
+    &:hover {
+        background-color: darken(chocolate, 10%);
+        cursor: pointer;
+
+        &:active {
+            background-color: lighten(chocolate, 10%);
+            transform: rotate(180deg);
+        }
+    }
+
+}
+
+@mixin buttonSizeSmall() {
+    width: $smallBoutonWidth;
+    height: $smallBoutonHeight;
+}
+
+@mixin buttonSizeMedium() {
+    width: $mediumBoutonWidth;
+    height: $mediumBoutonHeight;
+}
+
+@mixin buttonSizeLarge() {
+    width: $largeBoutonWidth;
+    height: $largeBoutonHeight;
+}
+
+
+
+@mixin buttonColor($color) {
+    background-color: $color;
+}
+
+
+@mixin buttonStyle($style, $border , $couleur) {
+    outline-style: $style;
+    border: $border;
+
+    &:hover {
+        @if($border ==none) {
+            border: 3px solid black;
+        }
+
+        background-color: darken($couleur, 10%);
+        cursor: pointer;
+
+        &:active {
+            @if($border ==none) {
+                border: none;
+            }
+
+            background-color: lighten($couleur, 10%);
+        }
+    }
+
+}

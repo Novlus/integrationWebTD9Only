@@ -1,0 +1,70 @@
+$success: #00ff3c; 
+$warning: lightyellow; 
+$danger: darkred ;
+$information: lightgray;
+$alert: 2rem ;
+$font-weight: bold;
+$classic: white;
+
+$smallBoutonWidth : 60px;
+$smallBoutonHeight : 38px;
+$mediumBoutonWidth : 120px;
+$mediumBoutonHeight : 58px;
+$largeBoutonWidth : 400px;
+$largeBoutonHeight : 78px;
+$couleurPetitBouton : royalblue;
+$couleurGrandBouton : rgb(25, 54, 25);
+$couleurMediumBouton : transparent;
+$stylePetitBouton : ridge;
+$styleGrandBouton :  double;
+$styleMediumBouton : none;
+$bordurePetitBouton : 3px solid rgb(255, 116, 255);
+$bordureGrandBouton : 3px solid rgb(97, 68, 13);
+$bordureMediumBouton : none ;
+
+
+$gutter: 2% ;
+$TotalNBColumns : 24 ;
+
+$backgroundColorNavUl : rgb(246, 39, 153);
+$backgroundColorNavUl2: rgb(0, 225, 255) ;
+$backgroundColorNavUl3: rgb(255, 107, 33) ;
+$justifyContentNavUl2: center;
+$justifyContentNavUl3: space-evenly;
+
+
+$navUlMarginLeft : 0 ;
+$navUlMarginRight : 0 ;
+$navUlPadding : 0 ;
+$navUlDisplay : flex ;
+$navUlFlexDirection : column ;
+$navUlBackgroundColor : rgb(134, 130, 69);
+$navUlListStyle : none ;
+
+$navUlLiWidth : 100% ;
+$navUlLiHeight : 2.5rem ;
+$navUlLiTextAlign : left ;
+$navUlLiBorderTop : 3px double rgb(96, 69, 69) ;
+$navUlLiMargin : 0 ;
+
+$navUlLiAColor : rgb(109, 107, 104) ;
+$navUlLiATextDecoration : none;
+$navUlLiADisplay : block ;
+
+
+
+$navUl2FlexDirection : row ;
+$navUl2JustifyContent : space-evenly ;
+$navUl2border: 3px double black ;
+
+$navUlLi2Width : 10% ;
+$navUlLi2Height : 2.5rem ;
+$navUlLi2TextAlign : none ;
+$navUlLi2Margin : 0 ;
+$navUlLi2BorderTop: none ;
+
+$navUlLiA2Display : inline;
+
+$navUl3JustifyContent : flex-start ;
+$navUlLi3Width : 5rem ;
+

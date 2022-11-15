@@ -1,0 +1,103 @@
+
+//@import 'variable.scss';
+
+
+@mixin Ul($backgroundColor)
+{
+    
+        ul{
+            margin-left: $navUlMarginLeft;
+            margin-right: $navUlMarginRight;
+            padding: $navUlPadding;
+            display: $navUlDisplay;
+            flex-direction: $navUlFlexDirection;
+            background-color: $backgroundColor;
+            list-style: $navUlListStyle;
+            li
+            {
+                width: $navUlLiWidth;
+                height: $navUlLiHeight;
+                text-align: $navUlLiTextAlign;
+                border-top: $navUlLiBorderTop;
+                margin: $navUlLiMargin;
+                a
+                {
+                    color: $navUlLiAColor;
+                    text-decoration: $navUlLiATextDecoration;
+                    display: $navUlLiADisplay;
+                }
+                &:hover
+                {
+                    background-color: darken($backgroundColor, 10%);
+                    cursor: pointer;
+                }
+            }
+        }   
+}
+
+@mixin Ul2($backgroundColor ,$justifyContent)
+{
+    
+        ul{
+            background-color: $backgroundColor;
+            flex-direction: $navUl2FlexDirection;
+            border: $navUl2border;
+            justify-content: $justifyContent;
+            li
+            {
+                width: $navUlLi3Width;
+                height: $navUlLi2Height;
+                text-align: $navUlLi2TextAlign;
+                margin: $navUlLi2Margin;
+                border-top: $navUlLi2BorderTop;
+                a
+                {
+                    color: $navUlLiAColor;
+                    text-decoration: $navUlLiATextDecoration;
+                    display: $navUlLiA2Display;
+                }
+                &:hover
+                {
+                    background-color: darken($backgroundColor,10%);
+                    cursor: pointer;
+                }
+            }
+        }   
+}
+
+
+@mixin Ul3($backgroundColor,$justifyContent)
+{
+        
+            ul{
+                background-color: $backgroundColor;
+                flex-direction: $navUl2FlexDirection;
+                border: $navUl2border;
+                justify-content: $justifyContent;
+                li
+                {
+                    width: $navUlLi3Width;
+                    height: $navUlLi2Height;
+                    text-align: $navUlLi2TextAlign;
+                    margin: $navUlLi2Margin;
+                    border-top: $navUlLi2BorderTop;
+                    a
+                    {
+                        color: $navUlLiAColor;
+                        text-decoration: $navUlLiATextDecoration;
+                        display: $navUlLiA2Display;
+                    }
+                    &:hover
+                    {
+                        background-color: darken($backgroundColor,10%);
+                        cursor: pointer;
+                    }
+                }
+            }   
+}
+
+
+
+
+
+

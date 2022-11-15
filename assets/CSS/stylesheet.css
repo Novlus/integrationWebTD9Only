@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DriftWood';
+    src: url('drift.ttf') format('truetype')
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'DriftWood';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'DriftWood';
+    margin-top: 10%;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: bisque;
+    padding-bottom: 3%;
+}
+
+
+
+.divbutton {
+    margin-top: 1%;
+    margin-left: 50%;
+
+
+}
+
+.button {
+    width: 15%;
+}
+
+#pRedirection {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#boutonRetour {
+    margin-left: 50%;
+    margin-top: 1%;
+}

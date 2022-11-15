@@ -1,0 +1,43 @@
+//@import '_reset.scss';
+
+
+
+
+
+@mixin alerte() {
+    font-size: $alert;
+    font-weight: $font-weight;
+    background-color: $classic;
+}
+
+@mixin specialisation($couleur) {
+    background-color: $couleur;
+}
+
+@mixin alerteType($typeAlerte) {
+    @include alerte();
+    @if $typeAlerte =="success"
+
+        {
+        @include specialisation($success);
+    }
+
+    @else if $typeAlerte =="warning"
+
+        {
+        @include specialisation($warning);
+    }
+
+    @else if $typeAlerte =="danger"
+
+        {
+        @include specialisation($danger);
+    }
+
+    @else if $typeAlerte =="information"
+
+        {
+        @include specialisation($information);
+    }
+
+}
